@@ -1,0 +1,237 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+    justify-content: space-around;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn {
+    background-color: rgb(255, 152, 35);
+}
+
+.btn-bad {
+    background-color: rgb(163, 163, 163);
+    color: antiquewhite;
+}
+
+.btn:hover {
+    background-color: rgb(238, 105, 43);
+}
+.btn-bad:hover {
+    background-color: rgb(185, 185, 185);
+    color: antiquewhite;
+}
+
+.form-control:focus, .form-select:focus{
+    box-shadow: 0 0 0 .25rem rgb(255, 138, 84);
+    
+}
+
+.btn-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.cont-p-50{
+    padding: 50px;
+}
+
+
+.card {
+    margin: 15px 0;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.cards-container {
+    justify-content: space-around;
+}
+
+.card-title{
+    text-align:center;
+}
+
+.centerlize{
+    text-align:center;
+    margin:auto;
+}
+
+#cards-container {
+    display: flex;
+}
+
+.card-date {
+    font-size: 15px;
+    color: gray;
+    text-align: end;
+}
+
+.nParticipantes{
+    text-align:end;
+    font-size: 15px;
+    color: gray;
+
+}
+
+.container-fluid {
+    justify-content: space-between;
+}
+
+.text-green {
+    color: green;
+    font-size: 25px;
+}
+
+.text-red {
+    color: red;
+    font-size: 25px;
+}
+
+.img-card {
+    padding: 15px;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: antiquewhite;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 152, 35);
+}
+
+.ct1 {
+    width: 85%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+}
+
+#search-container {
+    background-image: url("/img/banner.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    padding: 50px;
+    color: antiquewhite;
+}
+
+#create-container {
+    background-image: url("/img/createbanner.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    padding: 50px;
+    color: antiquewhite;
+}
+#create-container h1 {
+    padding: 50px 0;
+}
+
+#search-container h1 {
+    padding: 50px 0;
+}
+
+.form-pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#events-container h2 {
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+#events-container .subs {
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+
+
+#events-container .card {
+    flex: 1 1 0;
+    max-width: 25%;
+    padding: 0;
+    margin: 5px;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.create-event{
+    max-width: 580px;
+    padding:0 45px;
+    margin:50px auto;
+
+}
+
+
+@media (max-width: 800px)
+{
+    .row {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    #events-container .card{
+        max-width: 100%;
+    }
+
+    
+
+}
